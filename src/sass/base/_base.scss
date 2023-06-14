@@ -1,0 +1,35 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  @include font($size: 1.4rem, $height: 1.9rem, $weight: 400)
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  @include font($size: 4.0rem, $height: 5.4rem);
+}
+
+h2 {
+  @include font($size: 2.4rem, $height: 3.3rem);
+}

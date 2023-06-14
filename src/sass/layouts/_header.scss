@@ -1,0 +1,11 @@
+.header {
+  background: $color-primary;
+  padding: 24px 24px 24px 0;
+
+  &__container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 24px;
+  }
+}

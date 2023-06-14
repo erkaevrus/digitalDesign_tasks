@@ -1,0 +1,16 @@
+@import "../../node_modules/normalize-scss/sass/normalize";
+@include normalize();
+
+// ---ABSTRACTS---
+@import "abstracts/constants";
+@import "abstracts/mixins";
+
+// ---BASE---
+@import "base/base";
+
+// ---LAYOUTS---
+@import "layouts/header";
+
+// ---COMPONENTS---
+@import "components/navigation";
+
