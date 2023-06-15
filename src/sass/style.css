@@ -614,6 +614,11 @@ h2 {
   align-items: center;
   column-gap: 16px;
 }
+.project-item__id {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .project-item__state {
   position: relative;
   display: flex;
