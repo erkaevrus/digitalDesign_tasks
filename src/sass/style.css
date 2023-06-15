@@ -433,6 +433,11 @@ body {
   line-height: 1.9rem;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -457,6 +462,45 @@ h2 {
   font-style: normal;
   font-weight: bold;
   line-height: 3.3rem;
+}
+
+.button {
+  padding: 12px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+.button--primary {
+  background: #1F75CB;
+  color: #FFFFFF;
+}
+.button--primary-hover {
+  background: #1068BF;
+}
+.button__primary-active {
+  background: #0B5CAD;
+}
+.button--primary-disabled {
+  background: #DCDCDE;
+  color: #8E8E8E;
+}
+.button--secondary {
+  background: #FFFFFF;
+  color: #1C1C1C;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+.button--secondary-hover {
+  background: #ECECEF;
+  border: 1px solid rgba(18, 19, 22, 0.5);
+}
+.button--secondary-active {
+  background: #DCDCDE;
+  border: 1px solid #1C1C1C;
+}
+.button--secondary-disabled {
+  background: #FFFFFF;
+  color: #8E8E8E;
+  border: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 .header {
@@ -509,6 +553,24 @@ h2 {
   width: 24px;
   height: 24px;
   cursor: pointer;
+}
+
+.default-page-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.page-info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin: 24px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -14,6 +14,11 @@ body {
   @include font($size: 1.4rem, $height: 1.9rem, $weight: 400)
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 a {
   text-decoration: none;
   color: inherit;
