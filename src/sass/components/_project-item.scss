@@ -1,0 +1,55 @@
+.project-item-container {
+  padding: 24px;
+}
+
+.project-item {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 16px 8px;
+  margin-bottom: 10px;
+  width: 100%;
+  row-gap: 19px;
+  border-bottom: 1px solid $color-border-active;
+
+  &__description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 16px;
+  }
+
+  &__state {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 16px;
+    opacity: 0;
+    padding-right: 58px;
+    transition: all .5s ease-out;
+
+    >button {
+      position: absolute;
+      bottom: 8px;
+      right: 0;
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  &__creator {
+    color: $color-font-disabled;
+  }
+
+  &__editor {
+    color: $color-font-disabled;
+  }
+}
