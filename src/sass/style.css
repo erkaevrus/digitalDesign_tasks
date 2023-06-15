@@ -520,6 +520,40 @@ h2 {
   fill: #8E8E8E;
 }
 
+.status-item {
+  color: #FFFFFF;
+  padding: 0 8px;
+  height: 19px;
+  border-radius: 4px;
+}
+.status-item--draft {
+  background: #9E6955;
+}
+.status-item--in-work {
+  background: #9E6955;
+}
+.status-item--complete {
+  background: #1F75CB;
+}
+.status-item--test {
+  background: #9E6955;
+}
+.status-item--done {
+  background: #1F75CB;
+}
+.status-item--close {
+  background: #1F75CB;
+}
+.status-item--delete {
+  background: #EE4222;
+}
+.status-item--active {
+  background: #1F75CB;
+}
+.status-item--not-active {
+  background: #8E8E8E;
+}
+
 .header {
   background: #1F75CB;
   padding: 24px 24px 24px 0;
@@ -603,6 +637,9 @@ h2 {
   row-gap: 19px;
   border-bottom: 1px solid #1C1C1C;
 }
+.project-item:hover .project-item__description .project-item__state {
+  opacity: 1;
+}
 .project-item__description {
   display: flex;
   justify-content: space-between;
@@ -627,21 +664,46 @@ h2 {
   column-gap: 16px;
   opacity: 0;
   padding-right: 58px;
-  transition: all 0.5s ease-out;
+  transition: all 0.3s ease-out;
 }
 .project-item__state > button {
   position: absolute;
   bottom: 8px;
   right: 0;
 }
-.project-item__state:hover {
-  opacity: 1;
-}
 .project-item__creator {
   color: #8E8E8E;
 }
 .project-item__editor {
   color: #8E8E8E;
+}
+
+.task-item:hover .task-item__description .task-item__state button {
+  opacity: 1;
+}
+.task-item:hover .task-item__description .task-item__state {
+  padding-right: 58px;
+}
+.task-item:hover .task-item__description .task-item__state .task-item__avatar {
+  right: 58px;
+}
+.task-item__state {
+  position: relative;
+  opacity: 1;
+  padding-right: 0px;
+}
+.task-item__state > button {
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+.task-item__avatar {
+  background: url("../img/icons/user-icon.svg");
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 0px;
+  bottom: 36px;
+  transition: all 0.3s ease-out;
 }
 
 /*# sourceMappingURL=style.css.map */

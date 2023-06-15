@@ -1,0 +1,42 @@
+.status-item {
+  color: $color-font-secondary;
+  padding: 0 8px;
+  height: 19px;
+  border-radius: 4px;
+
+  &--draft {
+    background: $color-border-bronze;
+  }
+
+  &--in-work {
+    background: $color-border-bronze;
+  }
+
+  &--complete {
+    background: $color-primary;
+  }
+
+  &--test {
+    background: $color-border-bronze;
+  }
+
+  &--done {
+    background: $color-primary;
+  }
+  
+  &--close {
+    background: $color-primary;
+  }
+
+  &--delete {
+    background: $color-font-error;
+  }
+
+  &--active {
+    background: $color-primary;
+  }
+
+  &--not-active {
+    background: $color-font-disabled;
+  }
+}

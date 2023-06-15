@@ -8,6 +8,8 @@
 // ---BASE---
 @import "base/base";
 @import "base/buttons";
+@import "base/status";
+
 
 // ---LAYOUTS---
 @import "layouts/header";
@@ -16,4 +18,5 @@
 @import "components/navigation";
 @import "components/default-page";
 @import "components/project-item";
+@import "components/task-item";
 
