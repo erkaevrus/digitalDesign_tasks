@@ -3,6 +3,7 @@
   border-radius: 4px;
   border: none;
   cursor: pointer;
+  transition: all .3s ease-out;
 
   &_small {
     display: flex;
@@ -16,22 +17,22 @@
   &_primary {
     background: $color-primary;
     color: $color-secondary;
-  }
-  
-  &_primary-hover {
-    background: $color-primary-hover;
-  }
 
-  &_primary-active {
-    background: $color-primary-active;
-  }
+    &:hover {
+      background: $color-primary-hover;
+    }
 
-  &_primary-disabled {
-    background: $color-primary-disabled;
-    color: $color-font-disabled;
+    &:active {
+      background: $color-primary-active;
+    }
 
-    >svg path{
-      fill: $color-font-disabled;
+    &:disabled {
+      background: $color-primary-disabled;
+      color: $color-font-disabled;
+
+      >svg path{
+        fill: $color-font-disabled;
+      }
     }
   }
 
@@ -40,28 +41,28 @@
     background: $color-secondary;
     color: $color-font-primary;
 
-    >svg path{
+    >svg path {
       fill: $color-font-primary;;
     }
-  }
 
-  &_secondary-hover {
-    border: 1px solid $color-border-hover;
-    background: $color-secondary-hover;
-  }
+    &:hover {
+      border: 1px solid $color-border-hover;
+      background: $color-secondary-hover;
+    }
 
-  &_secondary-active {
-    background: $color-secondary-active;
-    border: 1px solid $color-border-active;
-  }
+    &:active {
+      background: $color-secondary-active;
+      border: 1px solid $color-border-active;
+    }
 
-  &_secondary-disabled {
-    border: 1px solid $color-border-default;
-    background: $color-secondary;
-    color: $color-font-disabled;
+    &:disabled {
+      border: 1px solid $color-border-default;
+      background: $color-secondary;
+      color: $color-font-disabled;
     
-    >svg path{
-      fill: $color-font-disabled;
+      >svg path {
+        fill: $color-font-disabled;
+      }
     }
   }
 }
