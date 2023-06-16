@@ -10,6 +10,7 @@ html {
 }
 
 body {
+  margin: 0;
   font-family: 'Open Sans', sans-serif;
   @include font($size: 1.4rem, $height: 1.9rem, $weight: 400)
 }
