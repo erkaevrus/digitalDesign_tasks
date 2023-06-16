@@ -4,7 +4,7 @@
   border: none;
   cursor: pointer;
 
-  &--small {
+  &_small {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,20 +13,20 @@
     height: 42px;
   }
 
-  &--primary {
+  &_primary {
     background: $color-primary;
     color: $color-secondary;
   }
   
-  &--primary-hover {
+  &_primary-hover {
     background: $color-primary-hover;
   }
 
-  &__primary-active {
+  &_primary-active {
     background: $color-primary-active;
   }
 
-  &--primary-disabled {
+  &_primary-disabled {
     background: $color-primary-disabled;
     color: $color-font-disabled;
 
@@ -35,7 +35,7 @@
     }
   }
 
-  &--secondary {
+  &_secondary {
     border: 1px solid $color-border-default;
     background: $color-secondary;
     color: $color-font-primary;
@@ -45,17 +45,17 @@
     }
   }
 
-  &--secondary-hover {
+  &_secondary-hover {
     border: 1px solid $color-border-hover;
     background: $color-secondary-hover;
   }
 
-  &--secondary-active {
+  &_secondary-active {
     background: $color-secondary-active;
     border: 1px solid $color-border-active;
   }
 
-  &--secondary-disabled {
+  &_secondary-disabled {
     border: 1px solid $color-border-default;
     background: $color-secondary;
     color: $color-font-disabled;

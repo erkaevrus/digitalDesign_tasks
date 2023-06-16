@@ -4,39 +4,39 @@
   height: 19px;
   border-radius: 4px;
 
-  &--draft {
+  &_draft {
     background: $color-border-bronze;
   }
 
-  &--in-work {
+  &_in-work {
     background: $color-border-bronze;
   }
 
-  &--complete {
+  &_complete {
     background: $color-primary;
   }
 
-  &--test {
+  &_test {
     background: $color-border-bronze;
   }
 
-  &--done {
+  &_done {
     background: $color-primary;
   }
   
-  &--close {
+  &_close {
     background: $color-primary;
   }
 
-  &--delete {
+  &_delete {
     background: $color-font-error;
   }
 
-  &--active {
+  &_active {
     background: $color-primary;
   }
 
-  &--not-active {
+  &_not-active {
     background: $color-font-disabled;
   }
 }

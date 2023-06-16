@@ -470,7 +470,7 @@ h2 {
   border: none;
   cursor: pointer;
 }
-.button--small {
+.button_small {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -478,45 +478,45 @@ h2 {
   width: 42px;
   height: 42px;
 }
-.button--primary {
+.button_primary {
   background: #1F75CB;
   color: #FFFFFF;
 }
-.button--primary-hover {
+.button_primary-hover {
   background: #1068BF;
 }
-.button__primary-active {
+.button_primary-active {
   background: #0B5CAD;
 }
-.button--primary-disabled {
+.button_primary-disabled {
   background: #DCDCDE;
   color: #8E8E8E;
 }
-.button--primary-disabled > svg path {
+.button_primary-disabled > svg path {
   fill: #8E8E8E;
 }
-.button--secondary {
+.button_secondary {
   border: 1px solid rgba(0, 0, 0, 0.15);
   background: #FFFFFF;
   color: #1C1C1C;
 }
-.button--secondary > svg path {
+.button_secondary > svg path {
   fill: #1C1C1C;
 }
-.button--secondary-hover {
+.button_secondary-hover {
   border: 1px solid rgba(18, 19, 22, 0.5);
   background: #ECECEF;
 }
-.button--secondary-active {
+.button_secondary-active {
   background: #DCDCDE;
   border: 1px solid #1C1C1C;
 }
-.button--secondary-disabled {
+.button_secondary-disabled {
   border: 1px solid rgba(0, 0, 0, 0.15);
   background: #FFFFFF;
   color: #8E8E8E;
 }
-.button--secondary-disabled > svg path {
+.button_secondary-disabled > svg path {
   fill: #8E8E8E;
 }
 
@@ -526,31 +526,31 @@ h2 {
   height: 19px;
   border-radius: 4px;
 }
-.status-item--draft {
+.status-item_draft {
   background: #9E6955;
 }
-.status-item--in-work {
+.status-item_in-work {
   background: #9E6955;
 }
-.status-item--complete {
+.status-item_complete {
   background: #1F75CB;
 }
-.status-item--test {
+.status-item_test {
   background: #9E6955;
 }
-.status-item--done {
+.status-item_done {
   background: #1F75CB;
 }
-.status-item--close {
+.status-item_close {
   background: #1F75CB;
 }
-.status-item--delete {
+.status-item_delete {
   background: #EE4222;
 }
-.status-item--active {
+.status-item_active {
   background: #1F75CB;
 }
-.status-item--not-active {
+.status-item_not-active {
   background: #8E8E8E;
 }
 
