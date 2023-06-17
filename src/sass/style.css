@@ -231,16 +231,23 @@ h2 {
   padding: 0px 16px 8px;
   margin-bottom: 10px;
   width: 100%;
-  row-gap: 19px;
   border-bottom: 1px solid #1C1C1C;
 }
 .project-item:hover .project-item__description .project-item__state {
   opacity: 1;
 }
+.project-item__title {
+  height: 38px;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 .project-item__description {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  column-gap: 16px;
 }
 .project-item__info {
   display: flex;
@@ -258,6 +265,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-shrink: 0;
   column-gap: 16px;
   opacity: 0;
   padding-right: 58px;
@@ -269,6 +277,7 @@ h2 {
   right: 0;
 }
 .project-item__creator {
+  flex-shrink: 0;
   color: #8E8E8E;
 }
 .project-item__editor {

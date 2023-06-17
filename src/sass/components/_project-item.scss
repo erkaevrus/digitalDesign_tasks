@@ -8,17 +8,25 @@
   padding: 0px 16px 8px;
   margin-bottom: 10px;
   width: 100%;
-  row-gap: 19px;
   border-bottom: 1px solid $color-border-active;
 
   &:hover .project-item__description .project-item__state{
     opacity: 1;
   }
 
+  &__title {
+    height: 38px;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden; 
+  }
+
   &__description {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    column-gap: 16px;
   }
 
   &__info {
@@ -39,6 +47,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-shrink: 0;
     column-gap: 16px;
     opacity: 0;
     padding-right: 58px;
@@ -52,6 +61,7 @@
   }
 
   &__creator {
+    flex-shrink: 0;
     color: $color-font-disabled;
   }
 
