@@ -1,17 +1,5 @@
 .task-item {
 
-  &:hover .task-item__description .task-item__state button{
-    opacity: 1;
-  }
-
-  &:hover .task-item__description .task-item__state {
-    padding-right: 58px;
-  }
-
-  &:hover .task-item__description .task-item__state .task-item__avatar{
-    right: 58px;
-  }
-
   &__state {
     position: relative;
     opacity: 1;
@@ -21,15 +9,43 @@
       opacity: 0;
       transition: all .3s ease-out;
     }
+
+    &:hover {
+      padding-right: 58px;
+    }
+
+    &:hover .task-item__avatar {
+      right: 58px;
+    }
+
+    &:hover >button {
+      opacity: 1;
+    }
+
+    &_active {
+      padding-right: 58px;
+
+      >button {
+        opacity: 1;
+      }
+
+      .task-item__avatar {
+        right: 58px;
+      }
+    }
   }
 
   &__avatar {
-    background: url("../img/icons/user-icon.svg");
-    width: 24px;
-    height: 24px;
     position: absolute;
     right: 0px;
     bottom: 36px;
     transition: all .3s ease-out;
+
+    >img {
+      display: block;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+    }
   }
 }

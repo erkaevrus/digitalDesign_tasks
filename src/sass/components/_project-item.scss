@@ -10,10 +10,6 @@
   width: 100%;
   border-bottom: 1px solid $color-border-active;
 
-  &:hover .project-item__description .project-item__state{
-    opacity: 1;
-  }
-
   &__title {
     height: 38px;
     -webkit-line-clamp: 2;
@@ -31,7 +27,7 @@
 
   &__info {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     column-gap: 16px;
   }
@@ -53,10 +49,28 @@
     padding-right: 58px;
     transition: all .3s ease-out;
 
+    &:hover {
+      opacity: 1;
+    }
+
+    &_active {
+      opacity: 1;
+    }
+
     >button {
       position: absolute;
       bottom: 8px;
       right: 0;
+    }
+
+    >.drop-down-menu {
+      position: absolute;
+      top: 12px;
+      right: 0px;
+
+      >.drop-down-menu__list .drop-down-menu__item:last-child {
+        color: $color-font-error;
+      }
     }
   }
 

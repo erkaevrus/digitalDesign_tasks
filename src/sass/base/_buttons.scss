@@ -22,11 +22,11 @@
       background: $color-primary-hover;
     }
 
-    &:active {
+    &-active {
       background: $color-primary-active;
     }
 
-    &:disabled {
+    &-disabled {
       background: $color-primary-disabled;
       color: $color-font-disabled;
 
@@ -50,12 +50,12 @@
       background: $color-secondary-hover;
     }
 
-    &:active {
+    &-active {
       background: $color-secondary-active;
       border: 1px solid $color-border-active;
     }
 
-    &:disabled {
+    &-disabled {
       border: 1px solid $color-border-default;
       background: $color-secondary;
       color: $color-font-disabled;

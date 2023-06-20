@@ -8,4 +8,18 @@
     align-items: center;
     column-gap: 24px;
   }
+
+  &__button {
+    >.user-button {
+      position: relative;
+      width: 88px;
+      height: 42px;
+
+      >.drop-down-menu {
+        position: absolute;
+        top: 42px;
+        right: 0px;
+      }
+    }
+  }
 }
