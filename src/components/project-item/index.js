@@ -1,15 +1,16 @@
-function createProjectItem() {
+
+function createProjectItem(projectData) {
   return ` 
     <div class="project-item-container">
       <div class="project-item">
-        <p class="project-item__title">Название</p>
+        <p class="project-item__title">${projectData.title}</p>
         <div class="project-item__description">
           <div class="project-item__info">
-            <p class="project-item__id">#1</p>
-            <p class="project-item__creator">Иванов И.И. создал(а) 17 сен 2022 в 13:55</p>
+            <p class="project-item__id">${projectData.id}</p>
+            <p class="project-item__creator">${projectData.creator}</p>
           </div>
           <div class="project-item__state">
-            <p class="project-item__editor">Баранов В.В. изменил(а) 1 минуту назад</p>
+            <p class="project-item__editor">${projectData.editor}</p>
             <button class="button button_small button_secondary">
               <svg class="button__dots" width="4" height="14">
                 <use xlink:href="#dots"></use>

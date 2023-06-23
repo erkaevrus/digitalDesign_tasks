@@ -6,7 +6,7 @@
   font-display: swap;
 
   src:
-    url("../fonts/open-sans/open-sans-v35-cyrillic_latin-regular.woff2") format("woff2"),
+    url("@/fonts/open-sans/open-sans-v35-cyrillic_latin-regular.woff2") format("woff2"),
 }
 
 @font-face {
@@ -16,5 +16,5 @@
   font-display: swap;
 
   src:
-    url("../fonts/open-sans/open-sans-v35-cyrillic_latin-600.woff2") format("woff2"),
+    url("@/fonts/open-sans/open-sans-v35-cyrillic_latin-600.woff2") format("woff2"),
 }
