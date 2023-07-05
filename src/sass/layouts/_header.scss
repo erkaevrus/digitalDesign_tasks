@@ -1,0 +1,25 @@
+.header {
+  background: $color-primary;
+  padding: 24px 24px 24px 0;
+
+  &__container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 24px;
+  }
+
+  &__button {
+    >.user-button {
+      position: relative;
+      width: 88px;
+      height: 42px;
+
+      >.drop-down-menu {
+        position: absolute;
+        top: 42px;
+        right: 0px;
+      }
+    }
+  }
+}

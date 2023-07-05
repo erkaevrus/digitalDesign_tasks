@@ -1,0 +1,52 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  @include font($size: 14px, $height: 19px, $weight: 400)
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  @include font($size: 40px, $height: 54px);
+}
+
+h2 {
+  @include font($size: 24px, $height: 33px);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
