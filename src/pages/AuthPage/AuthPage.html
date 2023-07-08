@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AuthPage</title>
+</head>
+<body class="body-auth">
+  <div class="auth-container">
+    <form class="auth" action="post">
+      <div class="auth__header">
+        <h2 class="auth__title">Вход</h2>
+      </div>
+      <div class="auth__fields">
+        <label class="auth__label-login" for="login">Логин <span>*</span></label>
+        <input class="auth__input-login" type="text" name="login" id="login">
+        
+        <div class="auth__input-field">
+          <label class="auth__label-password" for="password">Пароль <span>*</span></label>
+          <input class="auth__input-password" type="text" name="password" id="password">
+          <svg class="auth__ico-eye-close" width="24" height="24">
+            <use xlink:href="#eye-close"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="auth__footer">
+        <button class="button button_primary">Войти</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

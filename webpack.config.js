@@ -32,6 +32,10 @@ module.exports = {
       filename: 'ProjectsPage.html',
       template: './src/pages/ProjectsPage/ProjectsPage.html'
     }),
+    new HtmlWebpackPlugin({ 
+      filename: 'AuthPage.html',
+      template: './src/pages/AuthPage/AuthPage.html'
+    }),
     new MiniCssExtractPlugin({
       filename: '[name].css',
     }),
