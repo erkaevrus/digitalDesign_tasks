@@ -9,13 +9,20 @@
 @import "base/buttons";
 @import "base/status";
 @import "base/drop-down-menu";
+@import "base/input";
+@import "base/select";
+@import "base/tooltips";
 
 // ---LAYOUTS---
 @import "layouts/header";
 
 // ---COMPONENTS---
 @import "components/navigation";
-@import "components/default-page";
 @import "components/project-item";
 @import "components/task-item";
+
+// ---PAGES---
+@import "pages/default-page";
+@import "pages/projects-page";
+
 

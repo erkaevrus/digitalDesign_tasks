@@ -9,13 +9,13 @@ html {
 }
 
 body {
+
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   @include font($size: 14px, $height: 19px, $weight: 400)
 }
 
 html, body {
-  height: 100%;
   margin: 0;
 }
 

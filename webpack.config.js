@@ -10,7 +10,7 @@ module.exports = {
   mode,
   target,
   entry: {
-      index: './src/js/index.js',
+      index: './src/index.js',
   },
   output: {
       filename: '[name].js',
@@ -25,7 +25,12 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({ 
+      filename: 'index.html',
       template: './src/index.html'
+    }),
+    new HtmlWebpackPlugin({ 
+      filename: 'ProjectsPage.html',
+      template: './src/pages/ProjectsPage/ProjectsPage.html'
     }),
     new MiniCssExtractPlugin({
       filename: '[name].css',

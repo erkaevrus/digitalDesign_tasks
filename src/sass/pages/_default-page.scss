@@ -1,0 +1,31 @@
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.default-page {
+  margin: 24px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  row-gap: 10px;
+  border: 1px solid $color-border-default;
+  border-radius: 4px;
+
+  &__text {
+    padding: 24px 0 0 24px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding-left: 24px;
+  }
+
+  &__item {
+    cursor: pointer;
+  }
+}

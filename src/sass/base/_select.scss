@@ -1,0 +1,32 @@
+.select {
+  border: 1px solid $color-border-default;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+
+  &__title {
+    padding: 10px 20px 10px 12px;
+  }
+
+  &__ico-drop-down {
+    fill: $color-font-disabled;
+    margin-right: 9px;
+  }
+
+  &__button {
+    border-left: 1px solid $color-border-default;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+
+  &__ico-arrow {
+    fill: $color-font-primary;
+  }
+}
