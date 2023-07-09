@@ -1,0 +1,37 @@
+.arrow-button {
+  border: 1px solid $color-border-default;
+  border-radius: 4px;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-item-container {
+  padding: 24px 24px 0;
+}
+
+.user-item {
+  column-gap: 8px;
+  border-bottom: 1px solid black;
+  display: flex;
+  padding: 0px 16px 8px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-bottom: 1px solid $color-border-active;
+
+  &__avatar {
+
+    >img {
+      display: block;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+    } 
+  }
+
+  >.status-item {
+    margin-left: 8px;
+  }
+}

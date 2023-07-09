@@ -36,6 +36,18 @@ module.exports = {
       filename: 'AuthPage.html',
       template: './src/pages/AuthPage/AuthPage.html'
     }),
+    new HtmlWebpackPlugin({ 
+      filename: 'TasksPage.html',
+      template: './src/pages/TasksPage/TasksPage.html'
+    }),
+    new HtmlWebpackPlugin({ 
+      filename: 'EmptyPage.html',
+      template: './src/pages/EmptyPage/EmptyPage.html'
+    }),
+    new HtmlWebpackPlugin({ 
+      filename: 'UsersProfilePage.html',
+      template: './src/pages/UsersProfilePage/UsersProfilePage.html'
+    }),
     new MiniCssExtractPlugin({
       filename: '[name].css',
     }),

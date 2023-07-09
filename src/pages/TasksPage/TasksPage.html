@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tasks</title>
+</head>
+<body>
+  <div class="tasks-page-wrapper projects-page-wrapper">
+    <header class="header">
+      <div class="header__container">
+        <div class="header__navigation">
+          <ul class="navigation">
+            <li class="navigation__link navigation__link_bordered"><a href="#">Проекты</a></li>
+            <li class="navigation__link navigation__link_colored"><a href="#">Задачи</a></li>
+            <li class="navigation__link navigation__link_bordered"><a href="#">Пользователи</a></li>
+          </ul>
+        </div>
+        <div class="header__button">
+          <div class="user-button"> 
+            <div class="user-button__avatar">
+              <img src="../../assets/images/user-icon.png" alt="avatar">
+            </div>
+            <div class="user-button__drop-down">
+              <svg class="user-button__icon" width="14" height="8">
+                <use xlink:href="#drop-down"></use>
+              </svg>
+            </div>
+            <div class="drop-down-menu">
+              <ul class="drop-down-menu__list">
+                <li class="drop-down-menu__item">Профиль</li>
+                <li class="drop-down-menu__item">Выход</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="tasks-page-main projects-page-main">
+      <div class="search-container">
+        <div class="input-search">
+          <input class="input-search__input" type="text" placeholder="Text">
+          <svg class="input-search__ico-clear" width="16" height="16">
+            <use xlink:href="#clear"></use>
+          </svg>
+          <svg class="input-search__ico-search" width="24" height="24">
+            <use xlink:href="#search"></use>
+          </svg>
+        </div>
+        <div class="select">
+          <span class="select__title">По названию</span>
+          <svg class="select__ico-drop-down" width="14" height="8">
+            <use xlink:href="#drop-down"></use>
+          </svg>
+          <div class="select__button">
+            <svg class="select__ico-arrow" width="16" height="16">
+              <use xlink:href="#vector"></use>
+            </svg>
+          </div>
+        </div>
+        <button class="button button_secondary">Добавить</button>
+      </div>
+
+      <div class="task-item-container project-item-container">
+
+        <div class="task-item project-item">
+          <p class="task-item__title project-item__title">Название</p>
+          <div class="task-item__description project-item__description">
+            <div class="task-item__info project-item__info">
+              <p class="task-item__id project-item__id">1#123456s8901234567890123456sdd01234567890123ssa1231</p>
+              <p class="task-item__creator project-item__creator">Петров И.И. создал(а) 17 сен 2022 в 13:55</p>
+              <div class="status-item status-item_draft">Черновик</div>
+            </div>
+            <div class="task-item__state project-item__state">
+              <p class="task-item__editor project-item__editor">Сазонова В.В. изменил(а) 1 минуту назад</p>
+              <div class="task-item__avatar">
+                <img src="../../assets/images/user-icon.png" alt="avatar">
+              </div>
+              <button class="button button_small button_secondary">
+                <svg class="button__dots" width="4" height="14">
+                  <use xlink:href="#dots"></use>
+                </svg>
+              </button>
+              <div class="drop-down-menu">
+                <ul class="drop-down-menu__list">
+                  <li class="drop-down-menu__item">Редактировать</li>
+                  <li class="drop-down-menu__item">Удалить</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="task-item project-item">
+          <p class="task-item__title project-item__title">Название</p>
+          <div class="task-item__description project-item__description">
+            <div class="task-item__info project-item__info">
+              <p class="task-item__id project-item__id">1#2</p>
+              <p class="task-item__creator project-item__creator">Иванов И.И. создал(а) 1 час назад </p>
+              <div class="status-item status-item_draft">Черновик</div>
+            </div>
+            <div class="task-item__state project-item__state">
+              <p class="task-item__editor project-item__editor">Иванов В.В. изменил(а) 1 минуту назад </p>
+              <div class="task-item__avatar">
+                <img src="../../assets/images/user-icon.png" alt="avatar">
+              </div>
+              <button class="button button_small button_secondary">
+                <svg class="button__dots" width="4" height="14">
+                  <use xlink:href="#dots"></use>
+                </svg>
+              </button>
+              <div class="drop-down-menu">
+                <ul class="drop-down-menu__list">
+                  <li class="drop-down-menu__item">Редактировать</li>
+                  <li class="drop-down-menu__item">Удалить</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="task-item project-item">
+          <p class="task-item__title project-item__title">Название</p>
+          <div class="task-item__description project-item__description">
+            <div class="task-item__info project-item__info">
+              <p class="task-item__id project-item__id">кодпроекта#3</p>
+              <p class="task-item__creator project-item__creator">Иванов И.И. создал(а) 1 час назад </p>
+              <div class="status-item status-item_draft">Черновик</div>
+            </div>
+            <div class="task-item__state project-item__state">
+              <p class="task-item__editor project-item__editor">Иванов В.В. изменил(а) 1 минуту назад </p>
+              <div class="task-item__avatar">
+                <img src="../../assets/images/user-icon.png" alt="avatar">
+              </div>
+              <button class="button button_small button_secondary">
+                <svg class="button__dots" width="4" height="14">
+                  <use xlink:href="#dots"></use>
+                </svg>
+              </button>
+              <div class="drop-down-menu">
+                <ul class="drop-down-menu__list">
+                  <li class="drop-down-menu__item">Редактировать</li>
+                  <li class="drop-down-menu__item">Удалить</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="task-item project-item">
+          <p class="task-item__title project-item__title">Название</p>
+          <div class="task-item__description project-item__description">
+            <div class="task-item__info project-item__info">
+              <p class="task-item__id project-item__id">1#2</p>
+              <p class="task-item__creator project-item__creator">Иванов И.И. создал(а) 1 час назад </p>
+              <div class="status-item status-item_draft">Черновик</div>
+            </div>
+            <div class="task-item__state project-item__state">
+              <p class="task-item__editor project-item__editor">Иванов В.В. изменил(а) 1 минуту назад </p>
+              <div class="task-item__avatar">
+                <img src="../../assets/images/user-icon.png" alt="avatar">
+              </div>
+              <button class="button button_small button_secondary">
+                <svg class="button__dots" width="4" height="14">
+                  <use xlink:href="#dots"></use>
+                </svg>
+              </button>
+              <div class="drop-down-menu">
+                <ul class="drop-down-menu__list">
+                  <li class="drop-down-menu__item">Редактировать</li>
+                  <li class="drop-down-menu__item">Удалить</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+ 
+    </main>
+
+    <div class="pagination-container">
+      <div class="pagination">
+        <div class="pagination__left-column">
+          <div class="pagination__pages">
+            <button class="button button_small button_secondary-disabled">
+              <svg class="button__ico-drop-down" width="24" height="24">
+                <use xlink:href="#drop-down-left"></use>
+              </svg>
+            </button>
+            <button class="button button_small button_primary">1</button>
+            <button class="button button_small button_secondary">2</button>
+            <button class="button button_small button_secondary">3</button>
+            <button class="button button_small button_secondary">
+              <svg class="button__ico-drop-down" width="24" height="24">
+                <use xlink:href="#drop-down-right"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="pagination__move-to-page">
+            <p class="pagination__subtitle">Перейти к странице</p>
+            <input class= "pagination__input" type="text">
+          </div>
+        </div>
+        <div class="pagination__page-indexes">
+          <p class="pagination__paging">1-10 из 25</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

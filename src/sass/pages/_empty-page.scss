@@ -1,0 +1,29 @@
+.empty-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.empty-page {
+  margin: 24px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  row-gap: 10px;
+  border: 1px solid $color-border-default;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+
+    >button {
+      width: 98px;
+    }
+  }
+
+}
