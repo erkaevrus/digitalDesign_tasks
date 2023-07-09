@@ -9,5 +9,7 @@ import '@/assets/sprites/clear.svg'
 import '@/assets/sprites/search.svg'
 import '@/assets/sprites/vector.svg'
 import '@/assets/sprites/eye-close.svg'
+import '@/assets/sprites/drop-down-left.svg'
+import '@/assets/sprites/drop-down-right.svg'
 
 

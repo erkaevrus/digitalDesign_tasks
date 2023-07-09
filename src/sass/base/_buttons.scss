@@ -30,7 +30,7 @@
       background: $color-primary-disabled;
       color: $color-font-disabled;
 
-      >svg path{
+      >svg {
         fill: $color-font-disabled;
       }
     }
@@ -41,7 +41,7 @@
     background: $color-secondary;
     color: $color-font-primary;
 
-    >svg path {
+    >svg {
       fill: $color-font-primary;;
     }
 
@@ -60,7 +60,7 @@
       background: $color-secondary;
       color: $color-font-disabled;
     
-      >svg path {
+      >svg {
         fill: $color-font-disabled;
       }
     }
